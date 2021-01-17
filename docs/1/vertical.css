@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* ************************************************************************* */
+/* 縦書きにする。
+/* ************************************************************************* */
+p {
+	margin: 0 1em;
+}
+#editor{
+	height: 80vh;
+	overflow: auto;
+/*	white-space:nowrap;
+	overflow: scroll;*/
+
+	margin: 0 auto;
+	width: 100%;
+	writing-mode: tb-rl;
+	writing-mode: vertical-rl;
+	/writing-mode: tb-rl;
+	_writing-mode: tb-rl;
+	-ms-writing-mode: tb-rl;            /* IE用      */
+	-moz-writing-mode: vertical-rl;     /* firefox用 */
+	-webkit-writing-mode: vertical-rl;  /* chrome用  */
+	-o-writing-mode: vertical-rl;       /* opera用   */
+}
+
